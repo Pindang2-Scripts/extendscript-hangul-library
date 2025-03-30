@@ -1,3 +1,14 @@
+/**
+    * Hangul Typewriter Library for Adobe ExtendScript and General Use
+    * @version 1.0.0
+    * @description A library for handling Hangul text composition and typewriter effects in Adobe ExtendScript.
+    * @license MIT
+    * @author Pindang2
+    * @date 2025-03-30
+    * @usage hangulTypewriteSteps("안녕하세요"); // Returns an array of steps for typewriting the text "안녕하세요"
+    * @example
+    * var steps = hangulTypewriteSteps("안녕하세요"); //['ㅇ','아','안','안ㄴ','안녀','안녕','안녕ㅎ','안녕하','안녕핫','안녕하세','안녕하셍','안녕하세요']
+*/
 function hangulTypewriteVersion() { return '1.0.0'; }
 function hangulComposeSteps(text){
     if (!text) return [];
