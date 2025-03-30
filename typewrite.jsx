@@ -8,6 +8,7 @@
     * @usage hangulTypewriteSteps("안녕하세요"); // Returns an array of steps for typewriting the text "안녕하세요"
     * @example
     * var steps = hangulTypewriteSteps("안녕하세요"); //['ㅇ','아','안','안ㄴ','안녀','안녕','안녕ㅎ','안녕하','안녕핫','안녕하세','안녕하셍','안녕하세요']
+    https://cdn.jsdelivr.net/gh/Pindang2-Scripts/extendscript-hangul-library@main/typewrite.jsx
 */
 function hangulTypewriteVersion() { return '1.0.0'; }
 function hangulComposeSteps(text){
